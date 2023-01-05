@@ -1,0 +1,277 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.prime{
+   height: auto;
+   background: #11121c;
+}
+
+.preview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel{
+    background: white;
+    width: 700px;
+    height: 300px;
+    margin: 25px 5px;
+    border: 5px outset gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-one{
+    background: red;
+    padding: 80px 120px;
+    margin: 40px;
+    color: white;
+}
+
+.property{
+    height: 100%;
+    width: auto;
+    background: #a93f55;
+    align-self: flex-start;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-self: center;
+    padding: 20px 20px 5px 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.shadow-container{
+    margin-left: 5px;
+}
+
+.shadow{
+    width: 250px;
+}
+
+.text-shadow{
+    width: 14%;
+    margin-left: 5px;
+}
+
+.controls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.controls-container{
+    background: #a93f55;
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-radius: 30px 0px 0px 30px;
+    margin-bottom: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* width */
+.controls-container::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+.controls-container::-webkit-scrollbar-track {
+    background: #FB2576; 
+}
+
+/* Handle */
+.controls-container::-webkit-scrollbar-thumb {
+    background: #6D67E4; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.controls-container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+.sliders-group{
+    width: auto;
+    padding: 10px;
+    margin-top: 3px;
+}
+
+.rad-text{
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.sliders{
+    width: 250px;
+    margin-left: 15px;
+}
+
+.text-radius{
+    width: 14%;
+    margin-left: 5px;
+}
+
+.colorPicker{
+    width: 100%;
+    margin-top: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dammy{
+    width: 50px;
+    padding: 3px;
+    background: white;
+    margin-top: 10px;
+}
+
+.dammy-one{
+    width: 50px;
+    padding: 3px;
+    background: white;
+    margin-top: 10px;
+}
+
+.dammy-two{
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.panel-color{
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.boxColor{
+    margin-left: 57px;
+}
+
+.textColor{
+    margin-left: 56px;
+}
+
+.shadowColor{
+    margin-left: 28px;
+}
+
+.clip-container{
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clipMe{
+    margin: 15px 5px 14px 15px;
+}
+
+/* width */
+#clipMe::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+#clipMe::-webkit-scrollbar-track {
+    background: #FB2576; 
+}
+
+/* Handle */
+#clipMe::-webkit-scrollbar-thumb {
+    background: #6D67E4; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+#clipMe::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.copy{
+    width: 50px;
+    height: 50px;
+    margin: 5px 250px 20px 10px;
+    color: white;
+    background: blue;
+    padding: 20 40px;
+    border-radius: 50px;
+    align-self: center;
+}
+
+.fa-solid{
+    font-size: 20px;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.5s ease;
+}
+
+.copied{
+    visibility: visible;
+}
+
+.cipher-workshop{
+    background-image: linear-gradient(to right, #141e30 , #243b55);
+}
+
+.secondary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.cipher-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cipher-area{
+    width: 90%;
+    resize: none;
+    padding: 5px;
+}
+
+.cipher-btn{
+    background: darkblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: white;
+    margin-top: 5px;
+}
+

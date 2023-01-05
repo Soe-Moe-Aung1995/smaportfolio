@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/alert.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal Alarm</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-3" style="background-color: #11121c">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fs-4 fw-bold" href="#"
+          ><img src="img/alert.png" style="width: 40px; height: 40px" alt="" />
+          Personal Alarm</a
+        >
+        <button
+          class="navbar-toggler border-success"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <div class="spacer" style="height: 50px"></div>
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-white" aria-current="page" href="./aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-white" href="./workshop.html" target="_blank">My WorkShop</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="intro-container">
+        <div class="intro-section">
+          <div class="alert-container">
+            <img src="img/alert.png" class="alert-ii" alt="" height="150px" width="150px"/>
+          </div>
+            <h1 class="intro-h text-white">Save Yourself !!!</h1>
+            <p class="intro-p text-white">You can save yourself with One Click!</p>
+        </div>
+      </div>
+    </main>
+    <div class="container features">
+      <div class="row row-sec gy-2">
+        <div class="col-md-6 tc-sec">
+          <h3 class="text-white text-center"><strong style="color: rgb(238, 219, 11);">Simple</strong> and <strong style="color: red;">Easy</strong> to use App.</h3>
+          <p class="text-white mt-5">OS : Android</p>
+          <p class="text-white ">Max-Size : 4 MB</p>
+          <p class="text-white">Features: </p>
+          <ul class="fet-info text-white">
+            <li>Ear sensitive sound</li>
+            <li>Flashlight Mode</li>
+            <li>Can run in Background</li>
+          </ul>
+          <a class="btn-download align-middle" href="./app-release.apk" target="_blank" download="alert"><i class="fa-brands fa-android me-2 align-middle fs-5 justify-items-center"></i>Download</a>
+          <p class="text-white mt-5">This Android App is only for Job Portfolio Purposes. But new Update is coming soon.</p>
+        </div>
+        <div class="col-md-6 justify-content-center">
+          <div class="img-container">
+            <img
+              src="img/personalalarm.jpg"
+              class="img-info rounded mx-auto d-block"
+              height="540px"
+              width="258px"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid con-contact">
+      <div class="row  row-contact justify-content-center text-white my-5  mx-3">
+        <div class="background-img col-lg-6 col-md-8 col-12">
+          <h4 class="my-3">Why don't you reach me?</h4>
+          <form action="https://formsubmit.co/caeser5434@gmail.com" method="post">
+            <div class="form-floating mb-3">
+              <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput" class="text-dark">Email address</label>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Message Me!!!"></textarea>
+            </div>
+            <button class="submit-btn" type="submit">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container com-con align-items-center text-white text-center fs-3">
+      <a class="social-link" href="https://www.facebook.com/profile.php?id=100078424500247&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a class="social-link" href="https://www.instragram.com/kol_myer" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a class="social-link" href=""><i class="fa-brands fa-github"></i></a></i>
+      <a class="social-link" href=""><i class="fa-brands fa-telegram"></i></a></i>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
